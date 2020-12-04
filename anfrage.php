@@ -314,19 +314,19 @@ addEventListener('DOMContentLoaded', function() {
                             
                             <div class="form-group">
                                  <label class="form-control-label" data-tag="kmltsQ4Q1R1"></label>
-                             <input type="number" min="1" step="1" id="q4r3" oninput="validity.valid||(value='');" name="kmltsQ4Q1R1" placeholder="" class="form-control " > 
+                             <input type="number" min="1" step="any" id="q4r3" oninput="validity.valid||(value='');" name="kmltsQ4Q1R1" placeholder="" class="form-control " > 
                              <span class="erreur d-none" id="3" >Bitte schreiben Sie Ihre Lieferlänge</span>
                              </div>
 
                             <div class="form-group">
                                  <label class="form-control-label" data-tag="kmltsQ4Q1R2"></label> 
-                            <input type="number" min="1" step="1" id="q4r4" oninput="validity.valid||(value='');" name="kmltsQ4Q1R2" placeholder="" class="form-control " > 
+                            <input type="number" min="1" step="any" id="q4r4" oninput="validity.valid||(value='');" name="kmltsQ4Q1R2" placeholder="" class="form-control " > 
                             <span class="erreur d-none" id="4">Bitte schreiben Sie Ihre Lieferbreite</span>
                             </div>
 
                             <div class="form-group">
                                  <label class="form-control-label" data-tag="kmltsQ4Q1R3"></label> 
-                             <input type="number" min="1" step="1" id="q4r5" oninput="validity.valid||(value='');" name="kmltsQ4Q1R3" placeholder="" class="form-control " > 
+                             <input type="number" min="1" step="any" id="q4r5" oninput="validity.valid||(value='');" name="kmltsQ4Q1R3" placeholder="" class="form-control " > 
                              <span class="erreur d-none" id="5">Bitte schreiben Sie Ihre Lieferhöhe</span>
                              </div>
                             
@@ -347,7 +347,7 @@ addEventListener('DOMContentLoaded', function() {
                         
                             <div class="form-group">
                                 <label data-tag="kmltsQ4Q2R1" class="form-check-label sub-desc" ></label>
-                                <input type="number" min="1" step="1" id="q5r6" oninput="validity.valid||(value='');"  name="kmltsQ5text" placeholder="" class="form-control">
+                                <input type="number" min="1" step="any" id="q5r6" oninput="validity.valid||(value='');"  name="kmltsQ5text" placeholder="" class="form-control">
                                 <span class="erreur d-none" id="6">Bitte schreiben Sie Ihr Liefergewicht</span>
                             </div>     
 
@@ -365,7 +365,7 @@ addEventListener('DOMContentLoaded', function() {
 
                             <div class="form-group">                                
                                 <label data-tag="kmltsQ4Q3R1" class="form-check-label sub-desc" ></label>
-                                <input type="number"  min="1" step="1" id="q6r7" oninput="validity.valid||(value='');"  name="kmltsQ6text" placeholder="" class="form-control">
+                                <input type="number"  min="1" step="any" id="q6r7" oninput="validity.valid||(value='');"  name="kmltsQ6text" placeholder="" class="form-control">
                                 <span class="erreur d-none" id="7">Bitte schreiben Sie die Menge</span>
                             </div> 
 
@@ -435,7 +435,7 @@ addEventListener('DOMContentLoaded', function() {
                     $(this).parent().children('span').removeClass('d-none');   
                 }
                 if($(this).attr('id')=="q7r12"){
-                    if(/^(?:(?:\+)49)-[0-9]{3}-[0-9]{3}-[0-9]{3}/.test($("#q7r12").val()) == false ){
+                    if(/^(?:(?:\+)49)-[0-9]{3}-[0-9]{3}-[0-9]{3}$/.test($("#q7r12").val()) == false ){
                         $(this).addClass("error");
                             $('#12').removeClass('d-none');
                     }
