@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+	html,body
+	{
+		background-color: rgb(124, 220, 242);
+		background: no-repeat;
+		text-align: center;
+		font-family: Raleway ,Helvetica , sans-serif;
+		min-width: 330px;
+
+		height: 100%;
+	}
+	header
+	{
+		font-size: 2em;
+		font-weight: bold;
+		margin: 20px; 
+    }
+    
+.left{
+	text-align: left;
+}
+	
+
+	.labels
+	{
+		display: inline-block;
+		text-align: right;
+		width: 40%;
+		padding: 5px;
+		vertical-align: top;
+		margin-top: 10px;
+	}
+	.rightTab
+	{
+		display: inline-block;
+		text-align: left;
+		width: 48%;
+		vertical-align: middle;
+		display: flex;
+	}
+	.input-field
+	{
+		height: 20px;
+		width: 280px;
+		padding: 5px;
+		margin:10px;
+		border: 1px solid #c0c0c0;
+		border-radius: 2px;
+    }
+    
+  
+	#userAge
+	{
+		width: 40px;
+	}
+	.userRatings, input[type="checkbox"] 
+	{
+		float: left;
+		margin-right: 5px;
+	}	
+	#submit 
+	{
+		background-color: #59ace0;
+		border-radius: 4px;
+		color: white;
+		font-size: 1em;
+		height: 40px;
+		width: 96px;
+		margin: 10px;
+		border: 0px solid;
+	}
+	.dropdown 
+	{
+		height: 35px;
+		width: 140px;
+		padding: 5px;
+		margin: 10px;  
+		margin-top: 15px;
+		border: 1px solid #c0c0c0;
+		border-radius: 2px;
+	}
+	.radio, .checkbox
+	{
+		position: relative;
+		left: -43px;
+		margin-left: 10px;
+		display: block;
+		padding-bottom: 10px;
+	}
+	@media screen and (max-width: 833px) 
+	{
+		.input-field 
+		{
+			width: 80%;
+		}
+		select 
+		{
+			width: 90%;
+		}
+	}
+
+	@media screen and (max-width: 520px) 
+	{
+		.labels 
+		{
+			width: 100%;
+			text-align: left;
+		}
+		.rightTab 
+		{
+			width: 80%;
+			float: left;
+		}
+		.input-field 
+		{
+			width: 100%;
+		}
+		select 
+		{
+			width: 100%;
+		}
+	}
+	
+	  .h1{
+		  margin-bottom: 30px;
+		  padding-top: 30px;
+		  padding-bottom: 10px;
+	  }
+
+
+	  /* grad buttom */
+	  .btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+	  
+	  
+
+	  

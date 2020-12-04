@@ -1,0 +1,46 @@
+{
+    "kmlts":"KAM LTS ANFRAGE",
+   
+    "kmltsQ1":"Welchen Transportdienst möchten Sie in Anspruch nehmen",
+     "kmltsQ1R1":"FTL",
+     "kmltsQ1R2":"LTL",
+     "kmltsQ1R3":"Expresstransport europaweit",
+     "kmltsQ1R4":"Umzug service (Hamburg)",
+     "kmltsQ1R5":"Kurierdienst (Hamburg)",
+     "kmltsQ1R6":"Stück- & Sammelgut",
+
+    "kmltsQ2":"Versandort",
+     "kmltsQ2R1":"Abfahrtsort",
+     "kmltsQ2R2":"Ankunftsort",
+
+    "kmltsQ3":"Welche Art von Waren möchten Sie liefern? ",
+     "kmltsQ3R1":"rohstoffe",
+     "kmltsQ3R2":"Gefahrgut",
+     "kmltsQ3R3":"Glass",
+     "kmltsQ3R4":"mobelstuck",
+     "kmltsQ3R5":"Andere",
+
+    "kmltsQ4":"Lieferung (sendung)",
+     "kmltsQ4Q1":" Dimensionen :",
+     "kmltsQ4Q1R1":"Länge (m)",
+     "kmltsQ4Q1R2":"Breite (m)",
+     "kmltsQ4Q1R3":"Höhe (m)",
+     
+    "kmltsQ4Q2":" Gewicht :",
+    "kmltsQ4Q2R1":"haben sie eine gewicht vorstellung( case pour ajouter une valeur nombre )",
+    
+   
+     "kmltsQ4Q3":" Stückzahl :",
+     "kmltsQ4Q3R1":"haben sie  Stückzahl ?",
+     
+     "globalQ12": "geben sie uns ihre coordinationen und wir melden uns bei sie in maximal 24 stunden",
+     "name": "name :",
+     "vorname": "vorname :",
+     "NomCompagnie": "unternehmens name :",
+     "adresse": "adresse :",
+     "telefon": "Telefon :",
+     "email": "Email :"
+
+    
+
+}
